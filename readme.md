@@ -2,7 +2,7 @@
 
 This repository contains customer support files for **RM Control Systems Plug-and-Play ECU Adapter Boards**.
 
-RM Control Systems adapter boards are designed to provide a plug-and-play interface between supported  vehicles and aftermarket engine management hardware while retaining the factory ECU connectors and vehicle wiring harness.
+RM Control Systems adapter boards are designed to provide affordable, yet capable standalone engine management solutions without costing as much as a supercharger itself. The goal is to provide engine management solutions that integrate cleanly with the factory vehicle, minimize unnecessary wiring and installation complexity, and give enthusiasts the flexibility to build, modify, and tune their vehicles without the cost and complexity traditionally associated with standalone engine management.
 
 ## Features
 
@@ -14,15 +14,15 @@ RM Control Systems PNP Adapter Boards are standalone engine management systems t
 
 - **Standalone Engine Management** – Provides an interface between the factory vehicle wiring and supported standalone ECU hardware, allowing full control of fueling, ignition, idle, and other engine functions.
 
-- **Automatic Transmission Control** – Provides control of the A340A/F automatic transmission, including selectable shift maps, shift points, torque converter lockup, manual shift mode, etc.
+- **Automatic Transmission Control** – Provides control of the A340E/F automatic transmission, including selectable shift maps, shift points, torque converter lockup, manual shift mode, etc.
 
-- **Factory System Integration** – Adapter boards are designed to retain and interface with applicable factory vehicle systems rather than requiring the vehicle to be  rewired around the standalone ECU. This includes compatibility with the shared negative leads that Toyota often uses in their crank/cam sensors that has proven problematic in other ECUs. There is no need to separate the negative crank/cam wires within the factory wiring harness like other ECUs often require.
+- **Factory System Integration** – Adapter boards are designed to retain and interface with applicable factory vehicle systems rather than requiring the vehicle to be rewired around the standalone ECU. This includes compatibility with the shared negative leads that Toyota often uses in their crank/cam sensors that has proven problematic in other ECUs. There is no need to separate the negative crank/cam wires within the factory wiring harness like other ECUs often require.
 
 - **Additional Inputs and Outputs** – Unused positions in the factory ECU connectors can be used for additional sensors, switches, and outputs. Please refer to each board's documentation file for pinouts for additional inputs/outputs.
 
 - **Expandable Sensor Support** – Additional inputs can be used for upgrades such as manifold absolute pressure (MAP), flex-fuel, fuel pressure, oil pressure, wideband input, etc. Please refer to each board's documentation file for pinouts for additional inputs/outputs.
 
-- **Expandable Output Support** – Available outputs can support additional functions such as completely sequential ignition (requires smart coils or 6-channel igniter), integrated 7th injector control, electronic throttle body (drive by wire), boost control, auxiliary relays, etc. Please refer to each board's documentation file for pinouts for additional inputs/outputs.
+- **Expandable Output Support** – Available outputs can support additional functions such as fully sequential ignition (requires smart coils or 6-channel igniter), integrated 7th injector control, electronic throttle body (drive by wire), boost control, auxiliary relays, etc. Please refer to each board's documentation file for pinouts for additional inputs/outputs.
 
 ## Repository Contents
 
