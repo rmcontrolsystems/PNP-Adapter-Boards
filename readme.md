@@ -12,7 +12,7 @@ RM Control Systems PNP Adapter Boards are standalone engine management systems t
 
 - **Plug-and-Play Factory Harness Connection** – The vehicle's original ECU wiring harness plugs directly into the adapter board. No expensive adapter harnesses required for installation!
 
-- **Standalone Engine Management** – Provides an interface between the factory vehicle wiring and supported standalone ECU hardware, allowing full control of fueling, ignition, idle, and other engine functions.
+- **Standalone Engine Management** – Provides an interface between the factory vehicle wiring and supported standalone ECU hardware, allowing full control of fueling, ignition, idle, and other engine functions using TunerStudio as the tuning and configuration platform. Please visit https://www.tunerstudio.com/index.php/downloads to download TunerStudio.
 
 - **Automatic Transmission Control** – Provides control of the A340E/F automatic transmission, including selectable shift maps, shift points, torque converter lockup, manual shift mode, etc.
 
@@ -28,7 +28,9 @@ RM Control Systems PNP Adapter Boards are standalone engine management systems t
 
 This repository contains resources including:
 
-- **Board Documentation** – Pinouts, specifications, connector information, and other documentation specific to each adapter board. Page 1 is Open Pins / Additional I/O: Identifies unused positions in the factory ECU connectors that can be populated to add additional inputs and outputs. Page 2 is Populated Pins / Factory Circuits: Identifies the factory ECU circuits connected through the adapter board and the TunerStudio channels associated with them. This provides a reference for locating and configuring factory functions such as injectors, ignition coils, crank and cam signals, and other factory circuits.
+- **Board Documentation** – Pinouts, specifications, connector information, and other documentation specific to each adapter board.
+    - **Page 1 – Open Pins / Additional I/O:** Identifies unused positions in the factory ECU connectors that can be populated to add additional inputs and outputs.
+    - **Page 2 – Populated Pins / Factory Circuits:** Identifies the factory ECU circuits connected through the adapter board and the TunerStudio channels associated with them. This provides a reference for locating and configuring factory functions such as injectors, ignition coils, crank and cam signals, and other factory circuits.
 
 In the future, this repository will contain:
 - **Firmware** – Firmware releases for supported ECU hardware, including the corresponding TunerStudio `.ini` file when applicable
