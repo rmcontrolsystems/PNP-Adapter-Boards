@@ -24,24 +24,15 @@ The supplied `custom.ini` adds the following channels:
 
 | Channel | Description |
 | --- | --- |
-| `VehicleSpeedMPH` | Converts the primary vehicle speed channel from km/h to MPH. |
-| `VehicleSpeedMPH1` | Converts the secondary vehicle speed channel from km/h to MPH. |
-| `FuelTempF` | Converts fuel temperature from °C to °F. |
-| `MAFlbsmin` | Converts measured mass airflow to pounds per minute (lb/min). |
+| `VehicleSpeedMPH` | Displays the Vehicl Speed Sensor channel in MPH. |
+| `VehicleSpeedMPH1` | Displays average wheel speed channel in MPH. |
+| `FuelTempF` | Displays fuel temperature in °F. |
+| `MAFlbsmin` | Displays measured mass airflow in pounds per minute (lb/min). |
 | `MPG_Total` | Calculates cumulative average fuel economy in MPG using accumulated vehicle distance and calculated fuel consumption. |
-| `AuxTemp1F` | Converts Auxiliary Temperature 1 from °C to °F. This channel is commonly used for automatic transmission fluid temperature. |
-| `coolantF` | Converts engine coolant temperature from °C to °F. |
-| `intakeF` | Converts intake air temperature from °C to °F. |
+| `AuxTemp1F` | Displays Auxiliary Temperature 1 in °F. This channel is commonly used for automatic transmission fluid temperature. |
+| `coolantF` | Displays engine coolant temperature in °F. |
+| `intakeF` | Displays intake air temperature in °F. |
 | `MPG` | Calculates instantaneous fuel economy in MPG using vehicle speed, fuel flow, ethanol content, and fuel temperature. |
-
-## Dashboards
-
-This folder also contains RM Control Systems TunerStudio dashboards in both Imperial and Metric units.
-
-- `Main Dash Imperial Units.dash`
-- `Main Dash Metric Units.dash`
-
-The Imperial dashboard is intended for users who prefer MPH, °F, lb/min, and MPG-based channels. The Metric dashboard retains metric units where applicable.
 
 ## Notes
 
