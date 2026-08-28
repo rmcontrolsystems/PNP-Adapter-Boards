@@ -46,9 +46,9 @@ Additional files and sections will be added as support for RM Control Systems pr
 
 Current vehicles include:
 
-- **1996 4Runner / 1995–1997 Tacoma & T100**
-- **1997–1998 4Runner / 1998–1999 Tacoma / 2000 Federal-Emissions Tacoma**
-- **1999–2000 4Runner / 2000 California-Emissions Tacoma / 2001 Tacoma**
+- **5VZ-FE 1996 4Runner / 1995–1997 Tacoma & T100** (auto transmission only)
+- **5VZ-FE 1997–1998 4Runner / 1998–1999 Tacoma / 2000 Federal-Emissions Tacoma**
+- **5VZ-FE 1999–2000 4Runner / 2000 California-Emissions Tacoma / 2001 Tacoma**
 
 ## Firmware and TunerStudio INI Files
 
