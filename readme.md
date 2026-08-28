@@ -53,6 +53,7 @@ Current vehicles include:
 Always use the **TunerStudio `.ini` file supplied with the corresponding firmware release**. Firmware and `.ini` files are version-specific and should be updated together.
 
 **What is an .ini file?**
+
 An .ini file tells TunerStudio how to communicate with your ECU and interpret the data it receives. It defines the available settings, gauges, tables, and menus for the specific firmware version running on your ECU. Because different firmware versions may use different features or memory layouts, TunerStudio requires the correct .ini file to communicate properly.
 
 ## Base Tunes
