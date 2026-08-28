@@ -24,8 +24,8 @@ The supplied `custom.ini` adds the following channels:
 
 | Channel | Description |
 | --- | --- |
-| `VehicleSpeedMPH` | Displays the Vehicl Speed Sensor channel in MPH. |
-| `VehicleSpeedMPH1` | Displays average wheel speed channel in MPH. |
+| `VehicleSpeedMPH` | Displays the Vehicle Speed Sensor channel in MPH. |
+| `VehicleSpeedMPH1` | Displays Average Wheel Speed channel in MPH. |
 | `FuelTempF` | Displays fuel temperature in °F. |
 | `MAFlbsmin` | Displays measured mass airflow in pounds per minute (lb/min). |
 | `MPG_Total` | Calculates cumulative average fuel economy in MPG using accumulated vehicle distance and calculated fuel consumption. |
