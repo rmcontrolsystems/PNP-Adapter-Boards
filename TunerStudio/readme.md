@@ -2,6 +2,8 @@
 
 This folder contains TunerStudio resources for RM Control Systems PNP standalone engine management systems, including custom dashboards and the `custom.ini` file used to add additional calculated and converted channels to TunerStudio.
 
+TunerStudio is a product of EFI Analytics, and can be downloaded here: https://www.efianalytics.com/TunerStudio/download/
+
 ## Installing custom.ini
 
 Download the `custom.ini` file from this folder and place it in the `projectCfg` folder for your TunerStudio project.
