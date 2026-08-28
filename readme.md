@@ -31,14 +31,12 @@ This repository contains resources including:
 - **Board Documentation** – Pinouts, specifications, connector information, and other documentation specific to each adapter board.
     - **Page 1 – Open Pins / Additional I/O:** Identifies unused positions in the factory ECU connectors that can be populated to add additional inputs and outputs.
     - **Page 2 – Populated Pins / Factory Circuits:** Identifies the factory ECU circuits connected through the adapter board and the TunerStudio channels associated with them. This provides a reference for locating and configuring factory functions such as injectors, ignition coils, crank and cam signals, and other factory circuits.
-
+- **TunerStudio** – Dashboards, custom channels, and other TunerStudio resources
+- **Getting Started & Support Documentation** – Installation, initial setup, configuration, and troubleshooting information
 
 In the future, this repository will contain:
 - **Firmware** – Firmware releases for supported ECU hardware, including the corresponding TunerStudio `.ini` file when applicable
 - **Base Tunes** – Starting calibration files for supported vehicle and engine combinations
-- **TunerStudio** – Dashboards, custom channels, and other TunerStudio resources
-- **Software & Drivers** – Utilities and drivers required for firmware installation or communication with supported hardware
-- **Getting Started & Support Documentation** – Installation, initial setup, configuration, and troubleshooting information
 
 Additional files and sections will be added as support for RM Control Systems products expands.
 
