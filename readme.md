@@ -2,7 +2,7 @@
 
 This repository contains customer support files for **RM Control Systems Plug-and-Play ECU Adapter Boards**.
 
-RM Control Systems adapter boards are designed to provide affordable, yet capable standalone engine management solutions without costing as much as a supercharger itself. The goal is to provide engine management solutions that integrate cleanly with the factory vehicle, minimize unnecessary wiring and installation complexity, and give enthusiasts the flexibility to build, modify, and tune their vehicles without the cost and complexity traditionally associated with standalone engine management.
+RM Control Systems adapter boards are designed to provide affordable, yet quality standalone engine management solutions without costing as much as a supercharger itself. The goal is to provide engine management solutions that integrate cleanly with the factory vehicle, minimize unnecessary wiring and installation complexity, and give enthusiasts the flexibility to build, modify, and tune their vehicles without the cost and complexity traditionally associated with standalone engine management.
 
 ## Features
 
