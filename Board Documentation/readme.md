@@ -1,8 +1,10 @@
 # Board Documentation
 
-This folder contains vehicle-specific documentation for RM Control Systems PNP Adapter Boards. Select the folder corresponding to your vehicle, model year, and emissions configuration.
+This folder contains vehicle-specific documentation for RM Control Systems PNP Adapter Boards. Select the documentation that corresponds to your vehicle model and year, taking into account the emissions configuration (Federal or California) and transmission type (automatic or manual) where applicable. Verify that the adapter board revision number shown in the documentation matches the revision number stamped on your adapter board.
 
-Each specification sheet includes ECU connector diagrams and detailed pin assignments for: 1.) Additional available inputs/outputs, and 2.) The vehicle's existing factory circuits.
+Each specification sheet includes ECU connector diagrams and detailed pin assignments for two categories:
+1. **Additional Inputs/Outputs** – Available connections that can be used to add sensors, switches, outputs, and other functions.
+2. **Factory Circuits** – Existing vehicle circuits connected to and controlled or monitored by the standalone engine management system.
 
 ## How to Use the Documentation
 
