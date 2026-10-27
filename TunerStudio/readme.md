@@ -1,43 +1,34 @@
 # RM Control Systems TunerStudio Files
 
-This folder contains TunerStudio resources for RM Control Systems PNP standalone engine management systems, including custom dashboards and the `custom.ini` file used to add additional calculated and converted channels to TunerStudio.
+This folder contains TunerStudio resources for RM Control Systems PNP standalone engine management systems, including custom dashboards, additional calculated channels, and firmware-specific ECU definition (.ini) files.
 
-TunerStudio is a product of EFI Analytics, and can be downloaded here: https://www.efianalytics.com/TunerStudio/download/
+## Folder Contents
 
-## Installing custom.ini
+### Dashboards
 
-Download the `custom.ini` file from this folder and place it in the `projectCfg` folder for your TunerStudio project.
+The **Dashboards** folder contains custom TunerStudio dashboards and the `custom.ini` file used to add additional calculated and converted channels.
 
-The typical Windows path is:
+Resources include:
 
-`Documents\TunerStudioProjects\[Project Name]\projectCfg`
+- **Imperial Dashboard** – Custom dashboard displaying vehicle and engine parameters using Imperial units.
+- **Metric Dashboard** – Custom dashboard displaying vehicle and engine parameters using Metric units.
+- **custom.ini** – Adds nine custom channels for vehicle speed, temperature, mass airflow, and fuel economy calculations.
 
-For example:
+Refer to the Dashboards folder for installation instructions and descriptions of the custom channels.
 
-`Documents\TunerStudioProjects\My 4Runner\projectCfg`
+### INI Definition Files
 
-Copy `custom.ini` into the `projectCfg` folder, then restart or reopen the TunerStudio project.
+The **INI Definition Files** folder contains firmware-specific TunerStudio ECU definition files.
 
-> **Note:** `[Project Name]` is the name of your individual TunerStudio project. Each project has its own `projectCfg` folder.
+These `.ini` files allow TunerStudio to communicate with the ECU and provide the appropriate configuration menus, settings, tables, and monitoring channels for the installed firmware.
 
-## Custom Channels
+**Always use the `.ini` definition file that corresponds to the firmware version installed on your ECU.**
 
-The supplied `custom.ini` adds the following channels:
+Refer to the INI Definition Files folder for additional information and installation instructions.
 
-| Channel | Description |
-| --- | --- |
-| `VehicleSpeedMPH` | Displays the Vehicle Speed Sensor channel in MPH. |
-| `VehicleSpeedMPH1` | Displays Average Wheel Speed channel in MPH. |
-| `FuelTempF` | Displays fuel temperature in °F. |
-| `MAFlbsmin` | Displays measured mass airflow in pounds per minute (lb/min). |
-| `MPG_Total` | Calculates cumulative average fuel economy in MPG using accumulated vehicle distance and calculated fuel consumption. |
-| `AuxTemp1F` | Displays Auxiliary Temperature 1 in °F. This channel is commonly used for automatic transmission fluid temperature. |
-| `coolantF` | Displays engine coolant temperature in °F. |
-| `intakeF` | Displays intake air temperature in °F. |
-| `MPG` | Calculates instantaneous fuel economy in MPG using vehicle speed, fuel flow, ethanol content, and fuel temperature. |
+## Important Notes
 
-## Notes
-
-The `custom.ini` file supplements the firmware-specific TunerStudio `.ini` file; it does not replace it.
-
-Firmware-specific `.ini` files should always match the firmware version installed on the ECU.
+- Firmware-specific ECU definition files and `custom.ini` serve different purposes and are not interchangeable.
+- The firmware definition file must be compatible with the installed ECU firmware.
+- The `custom.ini` file supplements the firmware definition by adding additional custom channels.
+- Some custom dashboards may require `custom.ini` to be installed for all gauges to function correctly.
